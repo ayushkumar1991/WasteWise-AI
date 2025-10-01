@@ -106,28 +106,29 @@ WasteWise-AI is unique because it combines **Gemini AI's computer vision** for r
 
 ```mermaid
 graph TB
+
     subgraph "User Interface"
-        A[🌐 Frontend &#124; Next.js 14]
+        A[Frontend | Next.js 14]
     end
 
     subgraph "Application Core"
-        B[💻 Backend &#124; Next.js API Routes]
-        C[🔑 Auth &#124; Web3Auth]
-        D[🗄️ Database &#124; PostgreSQL (Neon)]
+        B[Backend | Next.js API Routes]
+        C[Auth | Web3Auth]
+        D[Database | PostgreSQL (Neon)]
     end
 
     subgraph "External AI/Services"
-        E[🧠 AI &#124; Google Gemini AI]
-        F[🗺️ Mapping &#124; Google Maps API]
-        G[🔗 Blockchain &#124; Ethereum/Ethers.js]
+        E[AI | Google Gemini AI]
+        F[Mapping | Google Maps API]
+        G[Blockchain | Ethereum/Ethers.js]
     end
 
-    % Frontend Interactions
+    %% Frontend Interactions
     A -- Data/API Request --> B
     A -- Login Request --> C
     A -- Fetches Maps Data --> F
 
-    % Core Logic Flow
+    %% Core Logic Flow
     B -- Data CRUD --> D
     D -- Query Results --> B
     B -- Classification Request --> E
@@ -135,8 +136,9 @@ graph TB
     C -- Token/Session --> B
     C -- Wallet/Identity --> G
 
-    % Final Response
+    %% Final Response
     B -- API Response --> A
+
 ```
 
 ---
