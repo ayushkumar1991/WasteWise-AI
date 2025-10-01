@@ -16,7 +16,7 @@
 _An AI-powered decentralized waste management system that rewards users for reporting and collecting waste, creating a sustainable community-driven approach to environmental protection._
 
 
-## 🌍 "Built for CodeCubicle Hackathon - Pioneering Environmental Innovation"
+## 🌍 "Built for Community - Pioneering Environmental Innovation"
 
 [🚀 Live Demo](https://waste-wise-ai-one.vercel.app/)
 
@@ -130,12 +130,21 @@ graph TB
         G[🔗 Blockchain | Ethereum/Ethers.js]
     end
 
-    A -- API Request --> B
-    A -- Login --> C
+    % Frontend Interactions
+    A -- Data/API Request --> B
+    A -- Login Request --> C
+    A -- Fetches Maps Data --> F
+
+    % Core Logic Flow
     B -- Data CRUD --> D
-    B -- Image Analysis --> E
-    B -- Location Data --> F
+    D -- Query Results --> B
+    B -- Classification Request --> E
+    E -- AI Prediction --> B
+    C -- Token/Session --> B
     C -- Wallet/Identity --> G
+
+    % Final Response
+    B -- API Response --> A
 ```
 
 ---
