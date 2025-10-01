@@ -32,17 +32,9 @@ _An AI-powered decentralized waste management system that rewards users for repo
 -   [🚀 Features](#-features)
 -   [💻 Technical Architecture](#-technical-architecture)
 -   [🛠️ Tech Stack](#️-tech-stack)
--   [📈 Impact & Performance Metrics](#-impact--performance-metrics)
 -   [🚀 Getting Started](#-getting-started)
--   [🌐 Environment Setup](#-environment-setup)
--   [🗄️ Database Schema](#️-database-schema)
--   [📞 API Reference](#-api-reference)
 -   [🧠 AI Integration](#-ai-integration)
 -   [🔗 Blockchain Integration](#-blockchain-integration)
--   [🗺️ Roadmap](#️-roadmap)
--   [🔒 Security & Privacy](#-security--privacy)
--   [🤝 Contributing](#-contributing)
--   [🙏 Acknowledgments](#-acknowledgments)
 ---
 
 ## 🌍 Addressing UN Sustainable Development Goals
