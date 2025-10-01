@@ -18,7 +18,7 @@ _An AI-powered decentralized waste management system that rewards users for repo
 
 ## 🌍 "Built for Community - Pioneering Environmental Innovation"
 
-[🚀 Live Demo](https://waste-wise-ai-one.vercel.app/)
+[🚀 Live Demo](https://waste-wise-ai-pgqc.vercel.app/)
 
 </div>
 
