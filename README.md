@@ -108,7 +108,7 @@ WasteWise-AI is unique because it combines **Gemini AI's computer vision** for r
 graph TB
 
     subgraph "User Interface"
-        A[Frontend | Next.js 14]
+        A[Frontend | Next.js]
     end
 
     subgraph "Application Core"
